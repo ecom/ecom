@@ -1,0 +1,26 @@
+{
+  "name": "@rive/ecom-react",
+  "version": "0.0.1",
+  "description": "design system framework for ecommerce and marketing websites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rive/ecom.git"
+  },
+  "keywords": [
+    "design-system",
+    "front-end",
+    "ecommerce",
+    "landing-page",
+    "marketing"
+  ],
+  "author": "Guo Yunhe",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/rive/ecom/issues"
+  },
+  "homepage": "https://github.com/rive/ecom#readme"
+}

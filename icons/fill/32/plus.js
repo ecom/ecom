@@ -1,0 +1,1 @@
+export default {"name":"plus","width":32,"height":32,"paths":[{"d":"M14 4v10H4v4h10v10h4V18h10v-4H18V4z","fill":"currentColor"}]};
