@@ -1,0 +1,60 @@
+// Variables
+// =========
+
+// Colors
+// ------
+
+$ecom-white: #ffffff;
+$ecom-grey-05: #f2f2f2;
+$ecom-grey-10: #e6e6e6;
+$ecom-grey-20: #cccccc;
+$ecom-grey-30: #b3b3b3;
+$ecom-grey-40: #999999;
+$ecom-grey-50: #808080;
+$ecom-grey-60: #666666;
+$ecom-grey-70: #4d4d4d;
+$ecom-grey-80: #333333;
+$ecom-grey-90: #1a1a1a;
+$ecom-black: #000000;
+
+// Buttons
+// -------
+
+$ecom-button-background-color: $ecom-grey-05 !default;
+$ecom-button-border-color: $ecom-black !default;
+$ecom-button-border-style: solid !default;
+$ecom-button-border-width: 1px !default;
+$ecom-button-font-size: 16px !default;
+$ecom-button-min-width: 120px !default;
+$ecom-button-min-height: 40px !default;
+$ecom-button-line-height: 25px !default;
+$ecom-button-padding-x: 10px !default;
+$ecom-button-padding-y: ($ecom-button-min-height / 2) -
+    $ecom-button-border-width - ($ecom-button-line-height / 2) !default;
+$ecom-button-text-align: center !default;
+$ecom-button-text-color: $ecom-black !default;
+
+// Hover state
+$ecom-button-hover-background-color: $ecom-white !default;
+$ecom-button-hover-border-color: $ecom-grey-90 !default;
+$ecom-button-hover-text-color: $ecom-grey-90 !default;
+
+// active/pressed
+$ecom-button-active-background-color: $ecom-grey-10 !default;
+$ecom-button-active-border-color: $ecom-black !default;
+$ecom-button-active-text-color: $ecom-black !default;
+
+// disabled
+$ecom-button-disabled-background-color: $ecom-grey-10 !default;
+$ecom-button-disabled-border-color: $ecom-grey-20 !default;
+$ecom-button-disabled-text-color: $ecom-grey-40 !default;
+
+// Container
+// ---------
+
+$ecom-container-padding-x: 15px !default;
+$ecom-container-padding-y: 0 !default;
+
+$ecom-container-small-width: 480px !default;
+$ecom-container-medium-width: 720px !default;
+$ecom-container-large-width: 960px !default;

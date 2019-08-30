@@ -1,0 +1,56 @@
+.ecom-button {
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: $ecom-button-background-color;
+    border-color: $ecom-button-border-color;
+    border-style: $ecom-button-border-style;
+    border-width: $ecom-button-border-width;
+    color: $ecom-button-text-color;
+    cursor: pointer;
+    font-size: $ecom-button-font-size;
+    min-width: $ecom-button-min-width;
+    min-height: $ecom-button-min-height;
+    padding: $ecom-button-padding-y $ecom-button-padding-x;
+    text-align: $ecom-button-text-align;
+    text-decoration: none;
+
+    // hover
+    @media screen and (pointer: fine) {
+        &.hover, // .hover class is for visual presentation purpose
+        &:hover {
+            background-color: $ecom-button-hover-background-color;
+            border-color: $ecom-button-hover-border-color;
+            color: $ecom-button-hover-text-color;
+        }
+    }
+
+    // active
+    &:active,
+    &.active {
+        background-color: $ecom-button-active-background-color;
+        border-color: $ecom-button-active-border-color;
+        color: $ecom-button-active-text-color;
+    }
+
+    // disabled
+    &:disabled,
+    &.disabled {
+        background-color: $ecom-button-disabled-background-color;
+        border-color: $ecom-button-disabled-border-color;
+        color: $ecom-button-disabled-text-color;
+        cursor: not-allowed;
+    }
+}
+
+// remove focus outline
+button,
+a {
+    // remove focus outline in firefox
+    &::-moz-focus-inner {
+        border: 0;
+    }
+
+    &:focus {
+        outline: 0; // remove focus outline in webkit
+    }
+}

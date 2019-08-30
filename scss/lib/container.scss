@@ -1,0 +1,16 @@
+.ecom-container {
+  padding: $ecom-container-padding-y $ecom-container-padding-x;
+  margin: auto;
+}
+
+.ecom-container--small {
+  max-width: $ecom-container-small-width;
+}
+
+.ecom-container--medium {
+  max-width: $ecom-container-medium-width;
+}
+
+.ecom-container--large {
+  max-width: $ecom-container-large-width;
+}
