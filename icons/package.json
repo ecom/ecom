@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/rive/ecom#readme",
   "devDependencies": {
-    "@rive/iconic": "0.0.2"
+    "@rive/iconic": "0.0.3"
   }
 }
