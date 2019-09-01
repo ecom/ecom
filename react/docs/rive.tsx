@@ -3,6 +3,8 @@ import Home from ".";
 import "../../scss/lib/index.scss";
 import Components from "./components";
 import Buttons from "./components/buttons";
+import Elements from "./elements";
+import Colors from "./elements/colors";
 
 rive.config({
     name: "ECOM",
@@ -14,6 +16,18 @@ rive.addPage({
     path: "/",
     title: "Home",
     component: Home
+});
+
+rive.addPage({
+    path: "/elements",
+    title: "Elements",
+    component: Elements
+});
+
+rive.addPage({
+    path: "/elements/colors",
+    title: "Colors",
+    component: Colors
 });
 
 rive.addPage({

@@ -1,0 +1,24 @@
+{
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "name": "ecom",
+  "description": "design system framework for ecommerce and marketing websites.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rive/ecom.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rive/ecom/issues"
+  },
+  "homepage": "https://github.com/rive/ecom#readme"
+}
